@@ -12,11 +12,11 @@ ms.reviewer: tapanm
 
 # Configure WS-Federation for portals with Azure Active Directory
 
-In this article, you'll learn about configuring WS-Federation provider for portals with Azure Active Directory.
+In this article, you will learn about configuring WS-Federation provider for portals utilizing Azure Active Directory.
 
 > [!NOTE]
-> - Portals isn't limited to only Azure AD, multi-tenant Azure AD, or Azure AD B2C as the WS-Federation providers. You can use any other provider that confirms to the WS-Federation specifications with portals.
-> - Changes to the authentication settings [may take a few minutes](../admin/clear-server-side-cache.md#caching-changes-for-portals-with-version-926x-or-later) to reflect on the portal. Restart the portal using the [portal actions](../admin/admin-overview.md) if you want to reflect the changes immediately.
+> - Portals are not limited to utilizing only Azure AD, multi-tenant Azure AD, or Azure AD B2C as the WS-Federation providers. You can utilize any other provider with portals as long as that provider conforms to the WS-Federation specifications.
+> - Changes to the authentication settings [may take a few minutes](../admin/clear-server-side-cache.md#caching-changes-for-portals-with-version-926x-or-later) to be reflected on the portal. You can restart the portal using the [portal actions](../admin/admin-overview.md) if you would like the changes to be reflected immediately.
 
 To configure Azure AD as the WS-Federation provider:
 
